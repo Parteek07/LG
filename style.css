@@ -1,0 +1,253 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #F7DED0;
+}
+
+
+
+
+.section-padding{
+    padding: 100px 0;
+}
+
+/* .heading{
+    color: #317d7f;
+} */
+
+.video{
+    position: absolute;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    transform: translateX(-50%) translateY(-13%);
+    overflow: hidden;
+}
+
+.overlay{
+    height: 741px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.9;
+
+}
+.lady-img img{
+    position: absolute;
+    left: 117vh;
+    top: 20vh;
+    height: 80vh;
+}
+.text{
+    position: absolute;
+    bottom: 25vh;
+    left: 5vh;
+}
+.text span{
+    font-size: 8vh;
+}
+
+
+
+
+.about-img img{
+    width: 630px;
+}
+
+/* .background-clip{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+} */
+
+/* .carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    margin-bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+} */
+
+
+
+
+.nav-img img{
+    left: 26px;
+    width: 100px;
+    height: 101px;
+    top: -14px;
+    position: absolute;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-brand{
+    color: #000;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.navbar-nav .nav-link{
+    color: black;
+    font-weight: 600;
+}
+.navbar-nav .nav-link:hover{
+    color: #317d7f;
+    font-weight: 600;
+}
+.w-100{
+    height: 100vh;
+}
+
+
+
+
+.about-text p{
+    letter-spacing: 0.1rem;
+}
+
+
+
+.card-body i{
+    font-size: 50px;
+}
+.hammer-card i{
+    margin-bottom: 25px;
+}
+.man-card p{
+    margin-bottom: 5px;
+}
+
+
+
+/* .portfolio .card-body{
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+} */
+
+
+
+
+.team .card-body{
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.socials i{
+    font-size: 20px;
+}
+.team img{
+    height: 245px;
+    width: 170px;
+}
+/* responsive css */
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .carousel-caption{
+        margin-bottom: 370px;
+    }
+    .carousel-caption a{
+        width: 100%;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    .img-area img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        margin-bottom: 125px;
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+    .carousel-caption p{
+        width: 100px;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+    .about-text{
+        padding-top: 50px;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+}
+.bpw-floating-button {
+    /* Aligns the button to the right side of the container */
+    float: right;
+    /* Sets the fill color of the button icon */
+    fill: rgb(255, 255, 255);
+    /* Changes the cursor to a pointer when hovering over the button */
+    cursor: pointer;
+    /* Removes the outline around the button when clicked */
+    outline: none;
+ 
+    /* Centers the icon inside the button element */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    /* Sets the z-index to ensure the button is on top of other elements */
+    z-index: 1;
+    /* Sets the width and height of the button */
+    width: 52px;
+    height: 52px;
+    /* Changes the cursor to a pointer when hovering over the button */
+    cursor: pointer;
+    /* Rounds the corners of the button */
+    border-radius: 50%;
+    /* Adds a shadow effect to the button */
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
+    /* Clips any content that overflows the button */
+    overflow: hidden;
+ 
+    /* Removes padding and borders from the button */
+    padding: 0;
+    border: none;
+    background-clip: padding-box;
+ 
+    /* Adds a transition effect to the button when its size changes */
+    transition: width 1s, height 1s;
+}
+.bpw-floating-button {
+    background-image: url();
+}
